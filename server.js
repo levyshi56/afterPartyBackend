@@ -57,7 +57,9 @@ app.get('/events/:eventId', (req, res) => {
   }
 });
 
-app.get
+// app.get('/person/addPerson/:personId', (req, res) => {
+  
+// }
 
 app.get('/person/:personId', (req, res) => {
   const personId = req.params.personId;
